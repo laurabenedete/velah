@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;0,800;1,100;1,200;1,300;1,400;1,500&display=swap');
+
+*{
+   margin: 0;
+   padding: 0;
+   font-family: Montserrat, Arial, Helvetica, sans-serif;
+}
+
+/* Estilização do header/nav - menu */
+
+header{
+    background-color: black;
+    padding: 1.5rem
+ }
+ header img { 
+    max-width: 150px;max-height: 100px;  
+    display: block;
+    margin: 0 auto;   
+    padding: 0.3rem;
+}
+
+ nav{
+    width: 100%;
+    background-color: black;
+ }
+
+ul#lista-menu{
+   display: flex;
+   /* coloca os itens lado a lado */
+   list-style: none;
+
+}
+
+ul li{
+   padding-left: .8rem;
+   padding-right: .8rem;
+}
+
+ul a{
+   text-decoration: none;
+   color: antiquewhite;
+   font-size: 1.3rem;
+}
+
+#titulo{
+   font-size: 1.7rem;
+   text-align: center;
+   padding: 2rem;
+
+}
+
+/* estilização da section sobre */
+#sobre{
+    padding: 2.5rem;
+}
+
+#foto-perfil{
+    width: 20%;
+    border: 2px solid black;
+    display: flex;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+#texto-sobre{
+    margin: 4rem;
+    text-align: justify;
+    font-size: 25px;
+
+}
+/* estilização da section contato */
+#info-contato{
+    display: flex;
+    justify-content: center;
+}
+
+#contato{
+    font-size: 36px;
+    margin: 2rem;
+}
+
+.bi-instagram, .bi-linkedin{
+  font-size: 55px;  
+  padding: 2rem;
+  color: black;
+}
+
+address{
+    font-size: 25px;
+    margin: 5rem;
+}
+
+
+/* estilização footer */
+footer{
+    padding: 3rem;
+    width: 92.7%;
+    background-color: black;
+    display: flex;
+ }
+
+ footer p{
+    color: antiquewhite;
+    text-align: center;
+    font-size: 1.2rem;
+ }
