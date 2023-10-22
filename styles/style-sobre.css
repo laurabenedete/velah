@@ -85,6 +85,11 @@ ul a{
   color: black;
 }
 
+.bi-instagram:hover, .bi-linkedin:hover{
+   color: antiquewhite;
+   background-color: black;
+}
+
 address{
     font-size: 25px;
     margin: 5rem;

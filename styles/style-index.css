@@ -54,7 +54,7 @@
  section.cards{
     display: flex;
     justify-content: center;
-    padding: 2rem;
+    padding: 1rem;
  }
 
  section.cards div#bloco1 img{
